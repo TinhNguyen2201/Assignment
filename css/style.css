@@ -77,6 +77,7 @@ nav {
 .section1 {
     width: 100%;
     height: 1150px;
+    z-index: 1;
     /* background-color: rgb(113, 202, 167); */
 }
 
@@ -100,10 +101,12 @@ nav {
     height: 480px;
     /* border: 1px red dotted; */
     margin: 20px;
+
 }
 
 .sanpham img {
     width: 100%;
+
 }
 
 .tensanpham {
@@ -420,26 +423,38 @@ nav>ul {
     display: flex;
     justify-content: center;
     line-height: 45px;
+
+
+
 }
 
 nav ul a {
     margin: 0 10px;
     text-decoration: none;
     color: black;
+
+
+
 }
 
 nav ul li a:visited {
     color: black;
+
+
 }
 
 nav ul li a:hover {
     color: rgb(255, 75, 75);
     border-bottom: 2px solid rgb(255, 75, 75);
     padding-bottom: 12.5px;
+
+
 }
 
 nav ul li:hover ul {
     display: block;
+    z-index: 2;
+
 }
 
 nav ul li ul {
@@ -485,6 +500,7 @@ nav ul .subsanpham ul li>.subtitle {
 nav ul .subsanpham ul li>a {
     font-size: 14px;
     margin: 20px;
+
 }
 
 
@@ -496,13 +512,16 @@ nav ul .subsanpham ul li>a {
 .container_asidetintuc_articlegioithieu {
     display: flex;
 }
-.container_asidetintuc_articlekhuyenmai{
+
+.container_asidetintuc_articlekhuyenmai {
     display: flex;
 }
-.container_asidetintuc_articletintuc{
+
+.container_asidetintuc_articletintuc {
     display: flex;
 }
-.container_asidetintuc_articlehethongcuahang{
+
+.container_asidetintuc_articlehethongcuahang {
     display: flex;
 }
 
@@ -684,6 +703,9 @@ nav ul .subsanpham ul li>a {
     font-size: 14px;
     padding: 10px 0;
 }
+.articlegioithieu p a {
+    color: red;
+}
 
 
 
@@ -706,47 +728,57 @@ nav ul .subsanpham ul li>a {
 
 
 
-.articlekhuyenmai{
+.articlekhuyenmai {
     width: 75%;
     min-height: 500px;
     /* background-color: aqua; */
     padding: 25px;
 }
+
 .articlekhuyenmai h3 {
     font-size: 22px;
     padding: 20px 0;
 }
+
 .articlekhuyenmai span {
     font-size: 14px;
     font-weight: bold;
 }
+
 .articlekhuyenmai p {
     font-size: 14px;
     padding: 10px 0;
 }
-.articlekhuyenmai p a{
+
+.articlekhuyenmai p a {
     color: red;
 }
-.articlekhuyenmai img{
+
+.articlekhuyenmai img {
     width: 100%;
 }
-.articlekhuyenmai .tintuclienquan{
+
+.articlekhuyenmai .tintuclienquan {
     padding-top: 30px;
 }
-.articlekhuyenmai .tintuclienquan span{
+
+.articlekhuyenmai .tintuclienquan span {
     font-size: 22px;
     font-weight: normal;
 }
-.articlekhuyenmai .tintuclienquan ul li{
+
+.articlekhuyenmai .tintuclienquan ul li {
     padding: 5px 0;
 }
-.articlekhuyenmai .tintuclienquan ul li a{
+
+.articlekhuyenmai .tintuclienquan ul li a {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-weight: bold;
 }
-.articlekhuyenmai .tintuclienquan ul li a:hover{
+
+.articlekhuyenmai .tintuclienquan ul li a:hover {
     opacity: 0.6;
 }
 
@@ -766,44 +798,51 @@ nav ul .subsanpham ul li>a {
 
 
 
-.articletintuc{
+.articletintuc {
     width: 75%;
     min-height: 500px;
     /* background-color: aqua; */
     padding: 25px;
 }
-.articletintuc h1{
+
+.articletintuc h1 {
     font-size: 28px;
     padding: 10px 0;
     font-weight: bold;
 }
-.articletintuc .tintuc{
+
+.articletintuc .tintuc {
     width: 100%;
     height: 172px;
     /* background-color: aqua; */
     margin-left: 0px;
     display: flex;
 }
-.articletintuc .tintuc .hinh{
+
+.articletintuc .tintuc .hinh {
     width: 275px;
     height: 100%;
     /* background-color: aquamarine; */
     overflow: hidden;
 
 }
-.articletintuc .tintuc .hinh a img{
+
+.articletintuc .tintuc .hinh a img {
     transition: 0.5s;
 }
-.articletintuc .tintuc .hinh a img:hover{
+
+.articletintuc .tintuc .hinh a img:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
-.articletintuc .tintuc .ten-ngay-noidung{
+
+.articletintuc .tintuc .ten-ngay-noidung {
     width: 622px;
     height: 100%;
     /* background-color: chocolate; */
 }
-.articletintuc .tintuc .ten-ngay-noidung .ten{
+
+.articletintuc .tintuc .ten-ngay-noidung .ten {
     width: 100%;
     height: calc(50% / 3);
     /* background-color: aqua; */
@@ -812,14 +851,17 @@ nav ul .subsanpham ul li>a {
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.articletintuc .tintuc .ten-ngay-noidung .ten a{
+
+.articletintuc .tintuc .ten-ngay-noidung .ten a {
     text-decoration: none;
     color: black;
 }
-.articletintuc .tintuc .ten-ngay-noidung .ten a:hover{
+
+.articletintuc .tintuc .ten-ngay-noidung .ten a:hover {
     opacity: 0.6;
 }
-.articletintuc .tintuc .ten-ngay-noidung .ngay{
+
+.articletintuc .tintuc .ten-ngay-noidung .ngay {
     width: 100%;
     height: calc(50% / 3);
     /* background-color: aquamarine; */
@@ -828,7 +870,8 @@ nav ul .subsanpham ul li>a {
     color: grey;
 
 }
-.articletintuc .tintuc .ten-ngay-noidung .noidung{
+
+.articletintuc .tintuc .ten-ngay-noidung .noidung {
     width: 100%;
     height: calc(50% / 3);
     /* background-color: aqua; */
@@ -855,30 +898,35 @@ nav ul .subsanpham ul li>a {
 
 
 
-.articlehethongcuahang{
+.articlehethongcuahang {
     width: 75%;
     min-height: 500px;
     /* background-color: aqua; */
     padding: 25px;
 }
-.articlehethongcuahang h3{
+
+.articlehethongcuahang h3 {
     font-size: 22px;
     padding: 20px 0;
 }
-.articlehethongcuahang .ngaythang{
+
+.articlehethongcuahang .ngaythang {
     font-size: 14px;
     font-weight: bold;
 }
-.articlehethongcuahang h1{
+
+.articlehethongcuahang h1 {
     font-size: 28px;
     padding: 10px 0;
 }
-.articlehethongcuahang span{
+
+.articlehethongcuahang span {
     font-size: 24px;
     padding: 10px 0;
     font-weight: bold;
 }
-.articlehethongcuahang ul li{
+
+.articlehethongcuahang ul li {
     font-size: 14px;
     padding: 10px 0;
 }
@@ -890,51 +938,257 @@ nav ul .subsanpham ul li>a {
 
 
 
-.section1 .sanpham .hinhsanpham{
+.section1 .sanpham .hinhsanpham {
     position: relative;
 }
-.section1 .sanpham .hinhsanpham:hover .otrang{
-height: 50px;
-transition: 0.5s;
+
+.section1 .sanpham .hinhsanpham:hover .otrang {
+    height: 50px;
+    transition: 0.5s;
 }
-.section1 .sanpham .hinhsanpham:hover .otrang .nutmua{
-    display: block;
+
+.section1 .sanpham .hinhsanpham:hover .otrang .nutmua {
+    /* display: block; */
     height: 40px;
 }
-.section1 .sanpham .hinhsanpham:hover .otrang .nutmua a{
+
+.section1 .sanpham .hinhsanpham:hover .otrang .nutmua a {
     display: block;
 }
-.section1 .sanpham .hinhsanpham .otrang{
+
+.section1 .sanpham .hinhsanpham .otrang {
     position: absolute;
     width: 100%;
     height: 0px;
     background-color: #fff;
     bottom: 0px;
+    transition: 0.5s;
 }
-.section1 .sanpham .hinhsanpham .otrang .nutmua{
+
+.section1 .sanpham .hinhsanpham .otrang .nutmua {
     width: 40%;
     height: 0px;
     background-color: black;
     margin: 5px auto;
-    transition: 0.3s;
-    display: none;
+    transition: 0.5s;
+    /* display: none; */
 }
-.section1 .sanpham .hinhsanpham .otrang .nutmua a{
+
+.section1 .sanpham .hinhsanpham .otrang .nutmua a {
     font-size: 16px;
     text-decoration: none;
     color: #fff;
     line-height: 40px;
     padding-left: 20px;
-    transition: 0.3s;
+    /* transition: 0.5s; */
     display: none;
 }
-.section1 .sanpham .hinhsanpham .otrang .nutmua:hover{
+
+.section1 .sanpham .hinhsanpham .otrang .nutmua:hover {
     background-color: #fff;
     border: 1px black solid;
     color: black;
     transition: 0.3s;
 }
-.section1 .sanpham .hinhsanpham .otrang .nutmua:hover a{
+
+.section1 .sanpham .hinhsanpham .otrang .nutmua:hover a {
     color: black;
     transition: 0.3s;
 }
+
+
+
+/* hết sản phẩm */
+
+
+
+
+
+/* đăng nhập và đăng ký */
+
+
+
+
+.dangnhap-dangky{
+    width: 100%;
+    min-height: 300px;
+    /* background-color: blue; */
+    padding: 20px 0;
+    display: flex;
+}
+.dangnhap-dangky span{
+    font-size: 24px;
+    color: black;
+}
+.dangnhap-dangky .khungdangnhap{
+    width: 50%;
+    height: 310px;
+    /* background-color: aquamarine; */
+    margin: 0 20px;
+}
+.dangnhap-dangky .khungdangnhap .dangnhap{
+    width: 100%;
+    height: 260px;
+    /* background-color: chocolate; */
+    margin-top: 22px;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+
+
+.dangnhap-dangky form label{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.dangnhap-dangky form input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+    background-color: rgb(230, 230, 230);
+}
+.dangnhap-dangky form button{
+    width: 125px;
+    height: 40px;
+    font-weight: bold;
+    color: rgb(106, 106, 106);
+    margin-top: 10px;
+}
+.dangnhap-dangky form a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+.dangnhap-dangky form p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+.dangnhap-dangky .khungdangky{
+    width: 50%;
+    height: 310px;
+    /* background-color: chocolate; */
+    margin: 0 20px;
+}
+.dangnhap-dangky .khungdangky .dangky{
+    width: 100%;
+    height: 260px;
+    /* background-color: aquamarine; */
+    margin-top: 22px;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+
+
+/* hết đăng nhập đăng ký */
+
+
+
+
+
+/* chi tiết sản phẩm */
+
+
+
+
+.phanchitiet{
+    width: 100%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.phanchitiet .chitiet1{
+    width: 50%;
+    min-height: 500px;
+    /* background-color: chocolate; */
+    padding: 25px;
+}
+.phanchitiet .chitiet1 img{
+    width: 570px;
+    margin: 20px 0;
+}
+.phanchitiet .chitiet2{
+    padding: 25px;
+    width: 50%;
+    height: 576px;
+    /* background-color: aquamarine; */
+    position: sticky;
+    top: 0;
+}
+.phanchitiet .chitiet2 h1{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.phanchitiet .chitiet2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    padding: 20px 0;
+}
+.phanchitiet .chitiet2 span{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.phanchitiet .chitiet2 p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.phanchitiet .chitiet2 .mausac{
+    display: flex;
+}
+.phanchitiet .chitiet2 .mausac .khoimau{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 15px;
+}
+.phanchitiet .chitiet2 .mausac .khoimau:hover{
+    border: 2px black solid;
+}
+
+.phanchitiet .chitiet2 .kichco{
+    display: flex;
+}
+.phanchitiet .chitiet2 .kichco .khoico{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(210, 210, 210);
+    padding: 7px;
+    margin: 15px;
+}
+.phanchitiet .chitiet2 .kichco .khoico:hover{
+    border: 2px black solid;
+}
+.phanchitiet .chitiet2 button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.phanchitiet .chitiet2 button:hover{
+    background-color: #fff;
+    border: 1px black solid;
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+
+/* hết phần chi tiết sản phẩm */

@@ -1,0 +1,940 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1263px;
+}
+
+.contacts {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.contacts p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.logo-search-icon {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.logo-search-icon .logo {
+    width: 25%;
+    height: 100px;
+    /* background-color: cyan; */
+
+
+}
+
+.logo-search-icon .search {
+    width: 50%;
+    height: 100px;
+    /* background-color: rgb(82, 70, 107); */
+
+}
+
+.logo-search-icon .icon {
+    width: 25%;
+    height: 100px;
+    /* background-color: cyan;  */
+
+}
+
+.float {
+    float: left;
+}
+
+nav {
+    width: 100%;
+    height: 45px;
+
+    /* background-color: darkcyan; */
+
+}
+
+.pad {
+    padding: 13.5px;
+}
+
+.banner {
+    width: 100%;
+    height: 527px;
+    /* background-color: cornflowerblue; */
+}
+
+.banner a img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section1 {
+    width: 100%;
+    height: 1150px;
+    /* background-color: rgb(113, 202, 167); */
+}
+
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: rgb(147, 220, 220); */
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
+.sanpham {
+    width: calc(25% - 40px);
+    height: 480px;
+    /* border: 1px red dotted; */
+    margin: 20px;
+}
+
+.sanpham img {
+    width: 100%;
+}
+
+.tensanpham {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tensanpham a {
+    text-decoration: none;
+    color: black;
+}
+
+.giasanpham {
+    text-align: center;
+    padding-top: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.section2 {
+    width: 100%;
+    height: 580px;
+    /* background-color: rgb(156, 174, 118); */
+}
+
+.tintuc {
+    width: calc(33.33% - 40px);
+    height: 380px;
+    /* border: 1px red dotted; */
+    margin: 20px;
+}
+
+.tintuc img {
+    width: 100%;
+}
+
+.tintuc .ngaydang {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.tintuc .tentintuc {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.tintuc .tentintuc a {
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+    margin: 10px auto;
+}
+
+.noidungngantintuc {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+
+}
+
+.contacts {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.logo img {
+    width: 30%;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+.searchbox {
+    margin: 25px;
+    width: 525px;
+    height: 50px;
+    font-size: 16px;
+    padding: auto 0;
+    padding-left: 20px;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.button .fa-magnifying-glass {
+    font-size: 18px;
+    opacity: 0.3;
+}
+
+.button {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    outline: none;
+    margin-left: -4px;
+
+
+}
+
+.button:active {
+    border: 2px black solid;
+    border-radius: 3px;
+}
+
+
+
+
+
+.clicked2 a:visited {
+    color: black;
+}
+
+.clicked2 a:hover {
+    opacity: 0.6;
+}
+
+.section2 .title a:visited {
+    color: black;
+}
+
+.icon a i {
+    color: black;
+    margin-top: 42px;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.icon a .fa-circle-user {
+    margin-left: 155px;
+}
+
+.dangkymail {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+}
+
+.hethong {
+    width: 100%;
+    height: 475px;
+    /* background-color: aquamarine; */
+}
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+
+.textdangky-odangky {
+    width: 66.66%;
+    height: 75px;
+    /* background-color: brown; */
+    display: flex;
+}
+
+.textdangky {
+    width: 25%;
+    height: 75px;
+    /* background-color: aqua; */
+    line-height: 75px;
+    font-size: 14px;
+}
+
+.odangky {
+    width: 75%;
+    height: 75px;
+    /* background-color: blue; */
+}
+
+.odangky .textboxodangky {
+    /* line-height: 37.5px; */
+    width: 506px;
+    height: 47px;
+    border: 1px solid rgb(230, 230, 230);
+    outline: none;
+    margin-top: 15px;
+}
+
+.hotline {
+    width: 33.33%;
+    height: 75px;
+    /* background-color: aqua; */
+}
+
+.odangky .buttondangky {
+    line-height: 42.5px;
+    /* margin-top: 15px; */
+    /* margin-left: -4.5px; */
+    outline: none;
+    width: 108px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.odangky .buttondangky:hover {
+    background-color: white;
+    color: black;
+
+    transition: 0.5s;
+}
+
+.khungtextboxodangky {
+    width: 80%;
+    height: 75px;
+    padding-left: 5px;
+    /* background-color: black; */
+}
+
+.buttondangky-khoidentrongdangky {
+    width: 20%;
+    height: 75px;
+    /* background-color: brown; */
+}
+
+.hotline {
+    line-height: 75px;
+    font-size: 14px;
+}
+
+.hotline a {
+    font-size: 16px;
+    color: red;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.hotline i {
+    font-size: 18px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+
+.hethongcontent {
+    width: 25%;
+    height: 475px;
+    /* border: 1px red solid; */
+    float: left;
+}
+
+.hethongcontent ul {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.hethongcontent ul span {
+    line-height: 30px;
+}
+
+.hethongcontent ul li a {
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.hethongcontent ul li a:hover {
+    opacity: 0.6;
+}
+
+.hethongcontent ul li {
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.page {
+    width: 100%;
+    height: 125px;
+    background-image: url(../images/biapage.jpg);
+    background-size: calc(111.5% + 2px);
+
+    overflow: hidden;
+}
+
+.logopage-tenpage {
+    width: 70%;
+    height: 65px;
+    /* background-color: #fff; */
+}
+
+.logopage img {
+    width: 50px;
+    height: 50px;
+    margin: 7.5px;
+}
+
+
+
+/* Phần menu */
+
+
+
+
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+}
+
+nav ul a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 75, 75);
+    border-bottom: 2px solid rgb(255, 75, 75);
+    padding-bottom: 12.5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+nav ul li ul li {
+    width: 150px;
+}
+
+nav ul li ul li a:hover {
+    border: none;
+}
+
+nav ul .subsanpham>ul {
+    margin-left: -405px;
+}
+
+nav ul .subsanpham>ul li {
+    width: 316px;
+}
+
+nav ul .subsanpham>ul>li {
+    box-shadow: 0px 1px 0px rgb(230, 230, 230) inset;
+}
+
+nav ul .subsanpham ul li ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav ul .subsanpham:hover>ul {
+    display: flex;
+}
+
+nav ul .subsanpham ul li>.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul .subsanpham ul li>a {
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+
+
+/* hết phần menu */
+
+
+.container_asidetintuc_articlegioithieu {
+    display: flex;
+}
+.container_asidetintuc_articlekhuyenmai{
+    display: flex;
+}
+.container_asidetintuc_articletintuc{
+    display: flex;
+}
+.container_asidetintuc_articlehethongcuahang{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* phần nội dung aside tin tức */
+
+
+
+
+
+
+
+
+
+
+
+
+.asidetintuc {
+    width: 25%;
+    min-height: 500px;
+    /* background-color: #cc4545; */
+}
+
+.asidetintuc .baivietmoinhat {
+    width: 90%;
+    min-height: 300px;
+    /* background-color: aqua; */
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.asidetintuc .baivietmoinhat span {
+    font-size: 18px;
+}
+
+.asidetintuc .baivietmoinhat hr {
+    padding: 1px 0;
+    border: none;
+    background-color: black;
+}
+
+.asidetintuc .baivietmoinhat .tintuc {
+    width: 100%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    margin: 30px 0;
+    padding: 15px 0;
+    display: flex;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.asidetintuc .baivietmoinhat .tintuc .hinh {
+    width: 70px;
+    height: 70px;
+    /* background-color: chocolate; */
+}
+
+.asidetintuc .baivietmoinhat .tintuc .hinh a img {
+    width: 100%;
+}
+
+.asidetintuc .baivietmoinhat .tintuc .tuade-ngay {
+    width: calc(100% - 70px);
+    height: 70px;
+    /* background-color: coral; */
+}
+
+.asidetintuc .baivietmoinhat .tintuc .tuade-ngay .tuade {
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.asidetintuc .baivietmoinhat .tintuc .tuade-ngay .tuade a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.asidetintuc .baivietmoinhat .tintuc .tuade-ngay .tuade a:hover {
+    opacity: 0.6;
+}
+
+.asidetintuc .baivietmoinhat .tintuc .tuade-ngay .ngay {
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0 5px;
+}
+
+.asidetintuc .danhmucsanpham {
+    width: 90%;
+    min-height: 300px;
+    /* background-color: aqua; */
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.asidetintuc .danhmucsanpham ul li {
+    margin: 10px 0;
+}
+
+.asidetintuc .danhmucsanpham ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.asidetintuc .danhmucsanpham span {
+    font-size: 18px;
+}
+
+.asidetintuc .danhmucsanpham hr {
+    padding: 1px 0;
+    border: none;
+    background-color: black;
+}
+
+
+
+
+
+
+/* hết nội dung phần aside tin tức */
+
+
+
+
+
+
+
+
+
+
+
+
+/* phần nội dung trang giới thiệu */
+
+
+
+
+
+
+
+.articlegioithieu {
+    width: 75%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    padding: 25px;
+}
+
+.articlegioithieu h3 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.articlegioithieu span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.articlegioithieu p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+/* hết nội dung phần trang giới thiệu */
+
+
+
+
+
+
+/* phần nội dung trang khuyến mại */
+
+
+
+
+
+
+.articlekhuyenmai{
+    width: 75%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    padding: 25px;
+}
+.articlekhuyenmai h3 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+.articlekhuyenmai span {
+    font-size: 14px;
+    font-weight: bold;
+}
+.articlekhuyenmai p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+.articlekhuyenmai p a{
+    color: red;
+}
+.articlekhuyenmai img{
+    width: 100%;
+}
+.articlekhuyenmai .tintuclienquan{
+    padding-top: 30px;
+}
+.articlekhuyenmai .tintuclienquan span{
+    font-size: 22px;
+    font-weight: normal;
+}
+.articlekhuyenmai .tintuclienquan ul li{
+    padding: 5px 0;
+}
+.articlekhuyenmai .tintuclienquan ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.articlekhuyenmai .tintuclienquan ul li a:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+/* hết phần nội dung trang khuyến mại */
+
+
+
+
+
+/* phần nội dung trang tin tức */
+
+
+
+
+
+.articletintuc{
+    width: 75%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    padding: 25px;
+}
+.articletintuc h1{
+    font-size: 28px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.articletintuc .tintuc{
+    width: 100%;
+    height: 172px;
+    /* background-color: aqua; */
+    margin-left: 0px;
+    display: flex;
+}
+.articletintuc .tintuc .hinh{
+    width: 275px;
+    height: 100%;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+
+}
+.articletintuc .tintuc .hinh a img{
+    transition: 0.5s;
+}
+.articletintuc .tintuc .hinh a img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.articletintuc .tintuc .ten-ngay-noidung{
+    width: 622px;
+    height: 100%;
+    /* background-color: chocolate; */
+}
+.articletintuc .tintuc .ten-ngay-noidung .ten{
+    width: 100%;
+    height: calc(50% / 3);
+    /* background-color: aqua; */
+    padding-left: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.articletintuc .tintuc .ten-ngay-noidung .ten a{
+    text-decoration: none;
+    color: black;
+}
+.articletintuc .tintuc .ten-ngay-noidung .ten a:hover{
+    opacity: 0.6;
+}
+.articletintuc .tintuc .ten-ngay-noidung .ngay{
+    width: 100%;
+    height: calc(50% / 3);
+    /* background-color: aquamarine; */
+    padding-left: 25px;
+    font-size: 14px;
+    color: grey;
+
+}
+.articletintuc .tintuc .ten-ngay-noidung .noidung{
+    width: 100%;
+    height: calc(50% / 3);
+    /* background-color: aqua; */
+    padding-left: 25px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+/* hết phần nội dung trang tin tức */
+
+
+
+
+
+/* phần nội dung trang hệ thống cửa hàng */
+
+
+
+
+
+
+.articlehethongcuahang{
+    width: 75%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    padding: 25px;
+}
+.articlehethongcuahang h3{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.articlehethongcuahang .ngaythang{
+    font-size: 14px;
+    font-weight: bold;
+}
+.articlehethongcuahang h1{
+    font-size: 28px;
+    padding: 10px 0;
+}
+.articlehethongcuahang span{
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.articlehethongcuahang ul li{
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+
+
+/* Sản Phẩm */
+
+
+
+.section1 .sanpham .hinhsanpham{
+    position: relative;
+}
+.section1 .sanpham .hinhsanpham:hover .otrang{
+height: 50px;
+transition: 0.5s;
+}
+.section1 .sanpham .hinhsanpham:hover .otrang .nutmua{
+    display: block;
+    height: 40px;
+}
+.section1 .sanpham .hinhsanpham:hover .otrang .nutmua a{
+    display: block;
+}
+.section1 .sanpham .hinhsanpham .otrang{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    background-color: #fff;
+    bottom: 0px;
+}
+.section1 .sanpham .hinhsanpham .otrang .nutmua{
+    width: 40%;
+    height: 0px;
+    background-color: black;
+    margin: 5px auto;
+    transition: 0.3s;
+    display: none;
+}
+.section1 .sanpham .hinhsanpham .otrang .nutmua a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 20px;
+    transition: 0.3s;
+    display: none;
+}
+.section1 .sanpham .hinhsanpham .otrang .nutmua:hover{
+    background-color: #fff;
+    border: 1px black solid;
+    color: black;
+    transition: 0.3s;
+}
+.section1 .sanpham .hinhsanpham .otrang .nutmua:hover a{
+    color: black;
+    transition: 0.3s;
+}

@@ -36,7 +36,31 @@
                 <div class="icon">
                     <a href="../Assignment/taikhoan.html"><i class="fa-solid fa-circle-user"></i></a>
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    <a onclick="showcart()"><i class="fa-solid fa-cart-plus"></i></a>
+                    <div id="showcart">
+
+
+                        <table class="khunggiohang" id="khunggiohang">
+                            <tr>
+                                <td style="width: 50%;">Sản phẩm</td>
+                                <td style="width: calc(50% / 3); color: red;font-size: 20px;">Giá</td>
+                                <td style="width: calc(50% / 3);">Số lượng</td>
+                                <td style="width: calc(50% / 3);">Tạm tính</td>
+                            </tr>
+                            <tbody id="mycart">
+
+                            </tbody>
+                            <tr>
+                                <td colspan="4" style="text-align: right;">
+                                   <a href="./giohang.html"><button type="button" class="nutCapNhatGioHang" onclick="insert_Row()">Cập Nhật Giỏ Hàng</button></a>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
+
+                    </div>
                 </div>
             </div>
         </header>
@@ -130,9 +154,10 @@
             <img src="./images/AKHTK306-QGNTK315-2-400x600.jpg" alt="AKHTK306">
         </div>
         <div class="chitiet2">
+            <img src="./images/AKHTK306-QGNTK315-2-400x600.jpg" alt="AKHTK306" width="0">
             <h1>Áo khoác nam AKHTK306</h1>
             <hr>
-            <h2>439.000₫</h2>
+            <h2><span>439000</span>₫</h2>
             <hr>
             <div class="mausac">
                 <span>Màu Sắc</span>
@@ -147,7 +172,7 @@
                 <div class="khoico">M</div>
                 <div class="khoico">L</div>
             </div>
-            <button type="submit">THÊM VÀO GIỎ HÀNG</button>
+            <button id="addToCart" type="button" disabled onclick="themSP(this)">THÊM VÀO GIỎ HÀNG</button>
             <span>Mô tả</span>
             <p>– Chất liệu: COTTON (97% COTTON,3% SPANDEX) <br>
                 – Dáng: SLIM <br>
@@ -256,6 +281,11 @@
             style="line-height: 60px;text-align: center;font-size: 14px;border: 1px solid rgb(240, 240, 240);">Copyright
             © 2017 360boutique. All Rights Reserved</div>
     </footer>
+    <script src="./js/main.js"></script>
+    <script>
+        showgiohang();
+        showmycart();
+    </script>
 </body>
 
 </html>

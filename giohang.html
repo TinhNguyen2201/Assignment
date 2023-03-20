@@ -36,31 +36,7 @@
                 <div class="icon">
                     <a href="../Assignment/taikhoan.html"><i class="fa-solid fa-circle-user"></i></a>
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a onclick="showcart()"><i class="fa-solid fa-cart-plus"></i></a>
-                    <div id="showcart">
-
-
-                        <table class="khunggiohang" id="khunggiohang">
-                            <tr>
-                                <td style="width: 50%;">Sản phẩm</td>
-                                <td style="width: calc(50% / 3); color: red;font-size: 20px;">Giá</td>
-                                <td style="width: calc(50% / 3);">Số lượng</td>
-                                <td style="width: calc(50% / 3);">Tạm tính</td>
-                            </tr>
-                            <tbody id="mycart">
-
-                            </tbody>
-                            <tr>
-                                <td colspan="4" style="text-align: right;">
-                                   <a href="./giohang.html"><button type="button" class="nutCapNhatGioHang" onclick="insert_Row()">Cập Nhật Giỏ Hàng</button></a>
-                                </td>
-                            </tr>
-                        </table>
-
-
-
-
-                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
                 </div>
             </div>
         </header>
@@ -134,132 +110,48 @@
             </ul>
         </nav>
     </div>
+
+
+
+
     <!-- phần code nội dung -->
-    <div class="container_asidetintuc_articlekhuyenmai">
-
-        <!-- phần code aside tin tức -->
-
-        <aside class="asidetintuc">
-            <div class="baivietmoinhat">
 
 
 
-                <span>
-                    <center>BÀI VIẾT MỚI NHẤT</center>
-                </span>
-                <hr>
-                <div class="tintuc">
-                    <div class="hinh"><a href="../Assignment/chitiettintuc1.html"><img src="./images/donxuansangtintuc.gif" alt="donxuansang"></a></div>
-                    <div class="tuade-ngay">
-                        <div class="tuade"><a href="../Assignment/chitiettintuc1.html">ĐÓN XUÂN SANG – LÊN ĐỒ TẾT | UP TO 50%</a></div>
-                        <div class="ngay">11/01/2023</div>
-                    </div>
-                </div>
+    <table class="khunggiohang" id="khunggiohang">
+        <tr>
+            <td style="width: 50%;">Sản phẩm</td>
+            <td style="width: calc(50% / 3); color: red;font-size: 20px;">Giá</td>
+            <td style="width: calc(50% / 3);">Số lượng</td>
+            <td style="width: calc(50% / 3);">Tạm tính</td>
+        </tr>
 
-                <div class="tintuc">
-                    <div class="hinh"><a href="../Assignment/chitiettintuc2.html"><img src="./images/khongkhilanhtintuc.jfif" alt="donxuansang"></a>
-                    </div>
-                    <div class="tuade-ngay">
-                        <div class="tuade"><a href="../Assignment/chitiettintuc2.html">Không khí lạnh bao trùm, miền Bắc rét đậm rét hại</a></div>
-                        <div class="ngay">29/12/2022</div>
-                    </div>
-                </div>
+<tbody id="mycart">
 
-                <div class="tintuc">
-                    <div class="hinh"><a href="../Assignment/chitiettintuc3.html"><img src="./images/merrychristmastintuc.jfif" alt="donxuansang"></a>
-                    </div>
-                    <div class="tuade-ngay">
-                        <div class="tuade"><a href="../Assignment/chitiettintuc3.html">HAPPY HOLIDAY | WISH YOU A MERRY CHRISTMAS</a></div>
-                        <div class="ngay">21/12/2022</div>
-                    </div>
-                </div>
+</tbody>
+        <tr>
+            <td colspan="4" style="text-align: right;">
+                <button type="button" class="nutCapNhatGioHang" onclick="capNhatGioHang()">Cập Nhật Giỏ Hàng</button>
+            </td>
+        </tr>
+    </table>
+    <div class="tongTinhTien">
+        <span>Tổng Cộng</span>
+        <table class="khungTinhTien">
+            <tbody id="sumPrice">
 
-                <div class="tintuc">
-                    <div class="hinh"><a href="../Assignment/khuyenmai.html"><img src="./images/lehoiamap.jfif" alt="donxuansang"></a></div>
-                    <div class="tuade-ngay">
-                        <div class="tuade"><a href="../Assignment/khuyenmai.html">LỄ HỘI ẤM ÁP | CHỈ TỪ 199-399K TOÀN BỘ ÁO ẤM</a></div>
-                        <div class="ngay">21/12/2022</div>
-                    </div>
-                </div>
-
-                <div class="tintuc">
-                    <div class="hinh"><a href="../Assignment/chitiettintuc5.html"><img src="./images/khaitruongcsmoi.jfif" alt="donxuansang"></a></div>
-                    <div class="tuade-ngay">
-                        <div class="tuade"><a href="../Assignment/chitiettintuc5.html">KHAI TRƯƠNG CƠ SỞ 298 NGUYỄN TRÃI</a></div>
-                        <div class="ngay">08/12/2022</div>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="danhmucsanpham">
-
-
-
-                <span>
-                    <center>DANH MỤC SẢN PHẨM</center>
-                </span>
-                <hr>
-
-                <ul>
-                    <li><a href="../Assignment/sanpham.html">Bộ Sưu Tập</a></li>
-                    <li><a href="../Assignment/sanpham.html">update 09/01</a></li>
-                    <li><a href="../Assignment/sanpham.html">update 13/01</a></li>
-                    <li><a href="../Assignment/sanpham.html">update 16.11</a></li>
-                    <li><a href="../Assignment/sanpham.html">update 20/12</a></li>
-                    <li><a href="../Assignment/sanpham.html">Update 27/12</a></li>
-                    <li><a href="../Assignment/sanpham.html">KHUYẾN MẠI</a></li>
-                    <li><a href="../Assignment/sanpham.html">Sản phẩm</a></li>
-                </ul>
-
-
-            </div>
-        </aside>
-
-        <!-- hết phần code aside tin tức -->
-
-
-
-        <!-- phần code nội dung -->
-
-        
-
-        <article class="articlekhuyenmai">
-            <h3>LỄ HỘI ẤM ÁP | CHỈ TỪ 199-399K TOÀN BỘ ÁO ẤM</h3>
-            <span>21/12/2022</span>
-            <p>Tưng bừng đón lễ hội, ấm áp trọn yêu thương!</p>
-            <p>Trong những ngày Miền Bắc đang lạnh sâu, 360® mang đến cho bạn một mùa lễ hội tươi vui, 
-                ấm áp và tràn đầy cảm xúc với ưu đãi TOÀN BỘ ÁO ẤM chỉ từ 199K và 399K:</p>
-            <p>– Áo nỉ chỉ từ 199K –> <a href="../Assignment/sanpham.html">xem tại đây</a></p>
-            <p>– Áo khoác phao chỉ từ 399K –> <a href="../Assignment/sanpham.html">xem tại đây</a></p>
-            <p>– Sơ mi, hoodie, quần jogger, quần âu giảm 20 – 50% –> <a href="../Assignment/sanpham.html">xem tại đây</a></p>
-            <p>– Cùng thật nhiều sản phẩm khác với mức giá hấp dẫn</p>
-            <img src="./images/banner-web-noel-lehoiamap.jpg" alt="lehoiamap">
-            <p>Một mùa Giáng sinh và Năm mới nữa lại gõ cửa, 360® gửi tới bạn những điều tốt đẹp nhất, 
-                hy vọng rằng bạn sẽ luôn thấy ấm áp trong cái lạnh ngày đông. 
-                Dù mùa lễ này đã có ai đó ở bên hay chưa thì cũng ghé 360® để nhận về yêu thương bạn nhé!</p>
-            <p>———————</p>
-            <strong>360 – Be yourself</strong>
-            <p>▪️ Hotline: 1900 886 803 – 0973 285 886</p>
-
-            <div class="tintuclienquan">
-                <span>Tin tức liên quan</span>
-                <ul>
-                    <li><a href="#">→ ĐÓN XUÂN SANG – LÊN ĐỒ TẾT | UP TO 50%</a></li>
-                    <li><a href="#">→ Không khí lạnh bao trùm, miền Bắc rét đậm rét hại</a></li>
-                    <li><a href="#">→ HAPPY HOLIDAY | WISH YOU A MERRY CHRISTMAS</a></li>
-                    <li><a href="#">→ KHAI TRƯƠNG CƠ SỞ 298 NGUYỄN TRÃI</a></li>
-                    <li><a href="#">→ BLACK FRIDAY | SALE UP TO 70% ALL ITEMS</a></li>
-                </ul>
-            </div>
-
-        </article>
-
-
+            </tbody>
+        </table>
+        <button type="button" class="nutThanhToan">Thanh Toán</button>
     </div>
 
-<!-- hết phần code nội dung -->
+
+
+
+    <!-- hết phần code nội dung -->
+
+
+
 
     <footer>
         <div class="dangkymail">
@@ -354,7 +246,7 @@
     <script src="./js/main.js"></script>
     <script>
         showgiohang();
-        showmycart();
+        // showmycart();
     </script>
 </body>
 

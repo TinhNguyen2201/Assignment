@@ -36,7 +36,31 @@
                 <div class="icon">
                     <a href="../Assignment/taikhoan.html"><i class="fa-solid fa-circle-user"></i></a>
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    <a onclick="showcart()"><i class="fa-solid fa-cart-plus"></i></a>
+                    <div id="showcart">
+
+
+                        <table class="khunggiohang" id="khunggiohang">
+                            <tr>
+                                <td style="width: 50%;">Sản phẩm</td>
+                                <td style="width: calc(50% / 3); color: red;font-size: 20px;">Giá</td>
+                                <td style="width: calc(50% / 3);">Số lượng</td>
+                                <td style="width: calc(50% / 3);">Tạm tính</td>
+                            </tr>
+                            <tbody id="mycart">
+
+                            </tbody>
+                            <tr>
+                                <td colspan="4" style="text-align: right;">
+                                   <a href="./giohang.html"><button type="button" class="nutCapNhatGioHang" onclick="insert_Row()">Cập Nhật Giỏ Hàng</button></a>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
+
+                    </div>
                 </div>
             </div>
         </header>
@@ -308,6 +332,11 @@
             style="line-height: 60px;text-align: center;font-size: 14px;border: 1px solid rgb(240, 240, 240);">Copyright
             © 2017 360boutique. All Rights Reserved</div>
     </footer>
+    <script src="./js/main.js"></script>
+    <script>
+        showgiohang();
+        showmycart();
+    </script>
 </body>
 
 </html>

@@ -1193,3 +1193,154 @@ nav ul .subsanpham ul li>a {
 
 
 /* hết phần chi tiết sản phẩm */
+
+
+
+
+/* Phần Selected */
+
+
+
+
+.selected{
+    border: 2px solid green !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* phần giỏ hàng */
+
+
+
+
+
+
+
+
+
+
+#showcart{
+     position: absolute;
+     right: 10px;
+     top: 100px;
+     padding: 10px;
+     background-color: aliceblue;
+     border-radius: 5px;
+     z-index: 3;
+}
+
+
+
+
+.khunggiohang{
+    margin: 20px;
+    width: 97%;
+}
+.khunggiohang td{
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.khunggiohang th{
+    height: 75px;
+    border: 1px solid rgb(230, 230, 230);
+    text-align: center;
+}
+.khunggiohang th input{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+.khunggiohang th .hinhHangMua-tenHangMua{
+    display: flex;
+}
+.khunggiohang th .nutXoaSP{
+    margin: auto 0;
+    margin-left: 25px;
+}
+.khunggiohang th span{
+    margin: auto 0;
+    margin-left: 25px;
+}
+.khunggiohang th .hinhHangMua img{
+    width: 50px;
+    margin-left: 50px;
+}
+.khunggiohang th .tenHangMua a{
+text-decoration: none;
+color: black;
+line-height: 75px;
+margin-left: 20px;
+}
+
+
+.nutCapNhatGioHang{
+    margin-right: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.nutCapNhatGioHang:hover{
+    background-color: #fff;
+    border: 1px black solid;
+    color: black;
+    transition: 0.3s;  
+}
+
+.tongTinhTien{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.tongTinhTien span{
+    font-weight: bold;
+    font-size: 22px;
+}
+.khungTinhTien{
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+}
+.khungTinhTien td{
+    font-weight: bold;
+    height: 30px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.nutThanhToan{
+    margin-top: 10px;
+    height: 40px;
+    width: 500px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.nutThanhToan:hover{
+    background-color: #fff;
+    border: 1px black solid;
+    color: black;
+    transition: 0.3s;  
+}
